@@ -1,10 +1,4 @@
 import { t } from "../deps.ts";
-import asyncIteratorMerge from "../mod.ts";
-
-const PromiseLike = t.Record({
-    then: t.Function
-});
-
 
 export const AsyncIterator = t.Intersect(
     t.Record({

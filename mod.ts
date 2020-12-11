@@ -1,5 +1,3 @@
-import { assert } from "https://deno.land/std@0.80.0/testing/asserts.ts";
-import { t } from "./deps.ts"
 import {AsyncIterable, AsyncIterator} from "./src/AsyncIterTypes.ts"
 
 interface AsyncIterItemTyp<T,U>{
