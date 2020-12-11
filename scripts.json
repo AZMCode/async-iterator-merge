@@ -1,0 +1,8 @@
+{
+    "scripts":{
+        "cache": "vr cache:deps && vr cache:build",
+        "cache:deps": "deno cache deps.ts",
+        "cache:build": "deno cache build.ts",
+        "build": "deno run --allow-write --allow-read --allow-net --allow-run build.ts"
+    }
+}
